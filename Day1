@@ -1,0 +1,24 @@
+#include <iostream> // Header for input/output operations
+
+// 'using namespace std' allows us to use names from the standard library directly
+using namespace std;
+
+// Every C++ program starts with the main() function
+int main() {
+    // 'cout' (character output) prints to the console
+    cout << "Hello, World!" << endl; // 'endl' adds a newline
+    return 0; // Exit status (0 = success)
+}
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age;
+    cout << "Enter your age: ";
+    cin >> age;  // Reads input from the user
+    cout << "You are " << age << " years old." << endl;
+    return 0;
+}
